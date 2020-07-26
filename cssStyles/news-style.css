@@ -1,0 +1,126 @@
+.breadcrumb-top {
+    background: #F1F1F1;
+    padding: 7px 0;
+}
+
+.breadcrumb-top .container a,
+.breadcrumb-top .container span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+
+/* content left */
+
+.breadcrumb-top .container a::after {
+    content: " / ";
+}
+
+.col-md-9.col-sm-12.news {
+    margin-bottom: 53px;
+}
+
+.news .news-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin: 37px 0 28px 0;
+}
+
+.news .col-md-6.content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    margin: 11px 0 18px 0;
+}
+
+.news .col-md-6.content .date-submit {
+    margin-left: 14px;
+}
+
+.news .col-md-6.content span {
+    margin: 0 10.5px;
+}
+
+.news .col-md-6.content img {
+    margin: 0 11.5px;
+}
+
+.news .news-img img {
+    margin-bottom: 35px;
+}
+
+.news .news-img .text-center img {
+    margin-bottom: 26px;
+}
+
+.news .content-news {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #777777;
+}
+
+
+/* content right */
+
+.content-right .content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 51px 0 28px 0;
+}
+
+.contact {
+    margin-bottom: 23px;
+}
+
+.contact .no-gutters-2 .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #343434;
+    margin-bottom: 15px;
+}
+
+.content-right .content-title-bot {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 4px 0 21px 0;
+}
+
+.news-group .row {
+    margin-bottom: 21px;
+}
+
+.news-group .content-news {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #343434;
+}
+
+.news-group .date-submit {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    margin-top: 20px;
+}

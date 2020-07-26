@@ -1,0 +1,174 @@
+@font-face {
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+    font-family: Roboto1;
+}
+
+.form-group .title-form {
+    margin-bottom: 42px;
+}
+
+.form-group .title-form h4 {
+    font-family: Roboto1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #343434;
+    margin-bottom: 24px;
+}
+
+.form-group .title-form span {
+    font-family: Roboto1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+.form-group .title-form span strong {
+    color: #343434;
+}
+
+.form-group input[type="text"] {
+    font-family: Roboto1;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    padding: 18px 10px 20px 13px;
+    margin-bottom: 15px;
+}
+
+.form-group select.form-control {
+    font-family: Roboto1;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #777777;
+}
+
+.form-group select.form-control option {
+    font-family: Roboto1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 18px 10px 20px 13px;
+}
+
+.form-group .radio-btn {
+    background: #EBEBEB;
+    border: 0.25px solid #777777;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-right: 9px;
+}
+
+.form-group .label {
+    font-family: Roboto1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+.forms-right .products-buy .content-product {
+    padding-left: 27px;
+    padding-right: 32px;
+    margin: 9px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343434;
+}
+
+.forms-right .products-buy .price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #777777;
+}
+
+.forms-right .form {
+    margin: 22px 0px 26px 0;
+}
+
+.forms-right .form form input[type="text"] {
+    padding: 18px 15px 20px 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.forms-right .form form .btn.btn-use-code {
+    background: #3697DE;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 27px;
+    margin-left: 9px;
+}
+
+.forms-right .form textarea {
+    margin-top: 18px;
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 18px 15px 0px 13px;
+}
+
+.forms-right .content-text {
+    margin: 31px 0;
+    padding: 0 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+.forms-right .content-text .text-right span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #777777;
+}
+
+.forms-right .btn-buy .btn.btn-primary.btn-block {
+    background: #3697DE;
+    border-radius: 5px;
+    padding: 17px 116px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
