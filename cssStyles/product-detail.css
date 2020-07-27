@@ -26,9 +26,14 @@
     margin-bottom: 14px;
 }
 
-.no-gutters-80 .col-right {
-    padding-left: 56px;
+.no-gutters-80 .col-left {
+    padding-right: 45px !important;
 }
+
+
+/* .no-gutters-80 .col-right {
+    padding-left: 56px;
+} */
 
 .no-gutters-80 .col-right .form {
     border: 1px solid #777777;

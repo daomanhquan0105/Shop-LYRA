@@ -90,28 +90,42 @@
     <!-- body -->
     <div class="container">
         <!-- body top -->
-        <div class="row no-gutters-80 mt-5 mb-5">
-            <div class="col-md-6 col-sm-12" style="padding: 0;">
-                <div class="row no-gutters">
-                    <div class="col-md-2 group-img-products mt-n3 pr-4 ">
-                        <ul>
-                            <li class="mb-n1"><img src="images/up.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail1.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail2.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail3.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
-                            <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
-                            <li class="mt-n4"><img src="images/down1.svg" class="img-fluid" alt=""></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-10">
-                        <img src="images/product-detail-big.svg" class="img-fluid" alt="">
+        <div class="row no-gutters-80">
+            <div class="col-md-7 col-sm-12 col-left" style="padding: 0;">
+                <div class="post-slider-vertical">
+                    <div class="row no-gutters">
+                        <i class="far fa-chevron-up up"></i>
+                        <i class="far fa-chevron-down down"></i>
+                        <div class="col-md-2 slider-nav">
+                            <div class="post"><img src="images/product-detail1.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail2.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail3.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail4.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail5.svg" alt=""></div>
+                            <!-- <ul>
+                                group-img-products mt-n3 pr-4
+                                <li class="mb-n1"><img src="images/up.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail1.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail2.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail3.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
+                                <li><img src="images/product-detail4.svg" class="img-fluid" alt=""></li>
+                                <li class="mt-n4"><img src="images/down1.svg" class="img-fluid" alt=""></li>
+                            </ul> -->
+                        </div>
+                        <div class="col-md-10 slider-for ">
+                            <div class="post"><img src="images/product-detail1.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail2.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail3.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail4.svg" alt=""></div>
+                            <div class="post"><img src="images/product-detail5.svg" alt=""></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-12 col-right">
+            <div class="col-md-5 col-sm-12 col-right">
                 <div class="form">
                     <div class="title-form text-center">
                         THÔNG TIN SẢN PHẨM
@@ -232,12 +246,12 @@
         </div>
         <!-- /nav bar -->
         <!-- product watched -->
-        <div class="products-hight">
+        <div class="products-hight" style="margin-bottom: 78px;">
             <div class="title-content text-center">
-                Top sản phẩm nổi bật trong tuần
+                Sản phẩm đã xem
             </div>
 
-            <div class="post-slider">
+            <div class="post-slider ">
                 <i class="far fa-chevron-left prev-4rd"></i>
                 <i class="far fa-chevron-right next-4rd"></i>
                 <div class="post-wrapper-4">
@@ -500,38 +514,8 @@
     <!-- slick Carousel -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- script customer -->
-    <script>
-        $(document).ready(function() {
-            $(".post-wrapper-4").slick({
-                slidesToScroll: 1,
-                slidesToShow: 4,
-                autoplay: true,
-                autoplaySpeed: 50000,
-                nextArrow: $(".next-4rd"),
-                prevArrow: $(".prev-4rd"),
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                    }
-                }, {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                    }
-                }, {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }]
-            });
-        })
-    </script>
-    <script src="js/news.js"></script>
+    <script src="/js/news.js"></script>
+    <script src="/js/product-detail.js"></script>
 </body>
 
 </html>

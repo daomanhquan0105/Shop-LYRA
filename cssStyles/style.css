@@ -77,8 +77,8 @@ body {
 
 .no-gutters-80>.col,
 .no-gutters-80>[class*="col-"] {
-    padding-right: -5px;
-    padding-left: -5px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .title-content.text-center {
