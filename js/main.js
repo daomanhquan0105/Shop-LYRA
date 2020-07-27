@@ -47,6 +47,25 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    //menu 
+    var nut_menu = document.querySelector(".top-content .icon-menu");
+    var menu_vertical = document.querySelector(".menu-bar-vertical");
+    var menu_close = document.querySelector(".menu-bar-vertical .btn-warning");
+    var div_black = document.querySelector(".div-black");
+
+
+    nut_menu.onclick = function() {
+        menu_vertical.classList.add("fadeInMenu");
+        div_black.classList.add("FadeIn");
+    }
+    menu_close.onclick = function() {
+        menu_vertical.classList.remove("fadeInMenu");
+        div_black.classList.remove("FadeIn");
+    }
+    div_black.onclick = function() {
+        menu_vertical.classList.remove("fadeInMenu");
+        div_black.classList.remove("FadeIn");
+    }
 }, false);
 
 $(document).ready(function() {

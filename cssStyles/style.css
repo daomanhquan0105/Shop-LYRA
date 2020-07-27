@@ -701,7 +701,7 @@ div.footer {
     .top-content .col-md-5 {
         display: none;
     }
-    .top-content .col-md-4 {
+    .top-content .col-md-4.icon-right.text-right {
         display: none;
     }
     .col-md-9.col-sm-6.icon-menu {
@@ -749,6 +749,9 @@ div.footer {
         font-family: Roboto1, sans-serif;
         height: 100%;
         background-color: #ffffff;
+    }
+    .menu-header.menu-den {
+        display: none;
     }
     .container {
         width: 760px;
